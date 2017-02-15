@@ -68,8 +68,8 @@ define('NONCE_SALT',       getenv('NONCE_SALT'));
 $table_prefix  = 'wp_';
 
 
-define('WP_HOME','http://pure-savannah-96927.herokuapp.com');
-define('WP_SITEURL','http://pure-savannah-96927.herokuapp.com');
+define('WP_HOME','https://pure-savannah-96927.herokuapp.com');
+define('WP_SITEURL','https://pure-savannah-96927.herokuapp.com');
 
 /**
  * For developers: WordPress debugging mode.
