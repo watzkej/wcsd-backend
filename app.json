@@ -4,34 +4,42 @@
   },
   "env": {
     "AUTH_KEY": {
-      "required": true
+      "required": true,
+      "generator": "secret"
     },
     "AUTH_SALT": {
-      "required": true
+      "required": true,
+      "generator": "secret"
     },
     "CLEARDB_DATABASE_URL": {
       "required": true
     },
     "LOGGED_IN_KEY": {
-      "required": true
+      "required": true,
+      "generator": "secret"
     },
     "LOGGED_IN_SALT": {
-      "required": true
+      "required": true,
+      "generator": "secret"
     },
     "NONCE_KEY": {
-      "required": true
+      "required": true,
+      "generator": "secret"
     },
     "NONCE_SALT": {
-      "required": true
+      "required": true,
+      "generator": "secret"
     },
     "PAPERTRAIL_API_TOKEN": {
       "required": true
     },
     "SECURE_AUTH_KEY": {
-      "required": true
+      "required": true,
+      "generator": "secret"
     },
     "SECURE_AUTH_SALT": {
-      "required": true
+      "required": true,
+      "generator": "secret"
     },
     "SENDGRID_PASSWORD": {
       "required": true
