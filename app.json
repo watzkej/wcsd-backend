@@ -1,0 +1,55 @@
+{
+  "name": "wcsd-backend",
+  "scripts": {
+  },
+  "env": {
+    "AUTH_KEY": {
+      "required": true
+    },
+    "AUTH_SALT": {
+      "required": true
+    },
+    "CLEARDB_DATABASE_URL": {
+      "required": true
+    },
+    "LOGGED_IN_KEY": {
+      "required": true
+    },
+    "LOGGED_IN_SALT": {
+      "required": true
+    },
+    "NONCE_KEY": {
+      "required": true
+    },
+    "NONCE_SALT": {
+      "required": true
+    },
+    "PAPERTRAIL_API_TOKEN": {
+      "required": true
+    },
+    "SECURE_AUTH_KEY": {
+      "required": true
+    },
+    "SECURE_AUTH_SALT": {
+      "required": true
+    },
+    "SENDGRID_PASSWORD": {
+      "required": true
+    },
+    "SENDGRID_USERNAME": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+    "cleardb",
+    "papertrail",
+    "sendgrid"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/php"
+    }
+  ]
+}
